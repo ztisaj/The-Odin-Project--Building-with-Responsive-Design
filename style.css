@@ -1,0 +1,1130 @@
+* {
+    margin: 0;
+
+}
+
+/** header 1 **/
+
+.header_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 32px;
+    background-color: #131313;
+    color: #9e9e9e;
+    font-size: 80%;
+    letter-spacing: 1px;
+    line-height: 32px;
+    vertical-align: middle;
+    font-family: 'Arsenal', sans-serif;
+    margin-left: -1%;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.news {
+    color: white;
+}
+
+.icon1 {
+    width: 16px;
+    height: 16px;
+}
+
+.bord {
+    border-left: 2px solid #eee;
+    height: 48px;
+    margin-right: 0;
+}
+
+.header_1a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    width: 35%;
+}
+
+.header_1b {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    width: 30%;
+}
+
+.change_heada {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.2s;
+    color: white;
+}
+
+.change_heada:hover {
+    opacity: 1;
+}
+
+/** header 2 **/
+
+.header_2 {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    line-height: 48px;
+    font-size: 100%;
+    color: #aaa;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    vertical-align: middle;
+    justify-content: space-between;
+    border-bottom: 5px solid #eee;
+    margin-left: -1%;
+}
+
+.header_2a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    width: 45%;
+}
+
+.header_2b {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    width: 20%;
+}
+
+.change_headb {
+    color: black;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.change_headb:hover {
+    opacity: 1;
+}
+
+/** main news **/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 70vh;
+    margin: 0 0.5em;
+    align-content: space-between;
+}
+
+.one_m {
+    width: 64%;
+    height: 100%;
+    background: url(img/img_a1.png) center center / cover no-repeat;
+    position: relative;
+}
+
+.color {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(277,0,0,0.8), rgba(0,0,0,0), rgba(0,0,0,1));
+    position: absolute;
+    z-index: 1;
+}
+
+.tnw_logo {
+    width: 50%;
+    margin: 10px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 9vh;
+    cursor: pointer;
+}
+
+.date {
+    float: right;
+    margin: 10px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+.two_m {
+    background: url(img/img_a2.jpg) center center / cover no-repeat;
+    width: 35%;
+    height: 49%;
+    margin-top: 0;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.three_m {
+    background: url(img/img_a3.jpg) center center / cover no-repeat;
+    width: 35%;
+    height: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title_small {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    margin: 10vh 10px 1%;
+    z-index: 2;
+    position: relative;
+}
+
+.title_big {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 7vh;
+    font-weight: 700;
+    color: white;
+    margin: auto 10px 10px;
+    line-height: 7vh;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.real_small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Arsenal', sans-serif;
+    height: 16px;
+    color: #aaa;
+    margin: 1% 11px 5%;
+    font-size: 14px;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.title_img {
+    height: 14px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.small_real {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.title_smal {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 2vh;
+    letter-spacing: 1px;
+    margin: 25% 10px 10px;
+}
+
+.title_bi {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    color: white;
+    margin: 0 10px 10px;
+    line-height: 2vw;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.real_smal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Arsenal', sans-serif;
+    height: 16px;
+    color: #aaa;
+    margin: 0 11px 5%;
+    font-size: 14px;
+    align-items: center;
+}
+
+/** latest news section **/
+
+.lat_news {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+    height: auto;
+}
+
+.news_p {
+    color: #ea3f33;
+    font-size: 28px;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    line-height: 28px;
+}
+
+.news_section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.news_s {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+.news_img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    height: 21vh;
+    cursor: pointer;
+}
+
+.news_title {
+    text-align: left;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.news_sub {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #b2b2b2;
+    line-height: 14px;
+}
+
+.no_marg {
+    margin-right: 0;
+}
+
+/** Funding section **/
+
+.lat_fund {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+    height: 40vh;
+    justify-content: flex-start;
+}
+
+.header_fund {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 28px;
+    align-items: baseline;
+    margin-top: 1%;
+}
+
+.add_more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ea3f33;
+    align-items: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    width: auto;
+    cursor: pointer;
+}
+
+.border {
+    border-right: 1px solid #ea3f33; 
+    height: 18px;
+    margin: 0 10px;
+}
+ 
+.add {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.funds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fund_section {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    justify-content: space-around;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.up_secfund {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.fund_img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    margin: 15px;
+}
+
+.up_fund {
+    background-color: rgba(234,63,51,1);
+    height: 44px;
+    color: white;
+}
+
+.fund_title {
+    margin-left: 95px;
+    line-height: 44px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.down_pinky {
+    background-color: rgba(251,231,230,1);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 95px;
+}
+
+.fund_money {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2vw;
+}
+
+.fund_sub {
+    color: #a29694;
+    font-size: 11px;
+}
+
+.midd_fund {
+    display: flex;
+    flex-direction: column;
+    height: 82px;
+    background-color: #fefaf8;
+    border-bottom: 1px solid #f5bfbd;
+}
+
+.midd_imgtxt {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    color: #5a5a59;
+    font-family: 'Arsenal', sans-serif;
+    align-items: center;
+}
+
+.bank {
+    height: 16px;
+    width: 16px;
+}
+
+.txt_fund {
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.down_fund {
+    background-color: #fefaf8;
+    height: 54px;
+    text-align: left;
+    padding: 10px 16px 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap-reverse;
+    font-family: 'Arsenal', sans-serif;
+}
+
+small {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.line_fund {
+    line-height: 18px;
+    color: #777;
+    letter-spacing: 0.5px;
+}
+
+/** Select Your News Section **/
+
+.syns {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.one_syns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 32%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.big_syns {
+    background: url(img/img_fork.png) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.color_syns {
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Arsenal', sans-serif;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+
+.mp {
+    margin: 3%;
+    font-size: 13px;
+}
+
+.title_syns {
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+}
+
+.autor_syns {
+    color: #777;
+    font-size: 13px;
+    margin: 0 3% 4%;
+}
+
+.latest {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fcf1f1;
+    height: 96px;
+    margin-top: 2px;
+}
+
+.little_pic {
+    width: 96px;
+}
+
+.pink_syns {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    color: red;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.first {
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+.second {
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 15px;
+}
+
+.five_syns {
+    margin: 2% -7%;
+}
+
+.red_li {
+    color: red;
+    list-style: disc;
+    margin-bottom: 2%;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #eee;
+    margin-right: 15px;
+}
+
+.para_syns {
+    color: #555;
+    padding-right: 3px;
+    margin-left: -8px;
+}
+
+.big_synsa {
+    background: url(img/img_apps.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsg {
+    background: url(img/img_gear.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synst {
+    background: url(img/img_tech.png) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsc {
+    background: url(img/img_creative.png) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsco {
+    background: url(img/img_contribute.png) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsi {
+    background: url(img/img_insight.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsl {
+    background: url(img/img_launch.jpg) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+.big_synsd {
+    background: url(img/img_distract.png) center center / cover no-repeat;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    margin-top: 2%;
+}
+
+/** Latest deal section **/ 
+
+.lat_deals {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 10%;
+}
+
+.header_deal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+}
+
+.deals_all {
+    color: #ea3f33;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    width: 30%;
+    text-align: right;
+}
+
+.deal_sec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.one_deal {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.deal_img {
+    width: 100%;
+}
+
+.h1_deal {
+    font-family: 'Arsenal', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.price_deal {
+    color: #555;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+cross {
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 20px;
+    text-decoration: line-through;
+    color: #aaa;
+    font-weight: light;
+}
+
+/** Footer section **/
+
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #131313;
+    height: 161px;
+}
+
+.foot1_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+    cursor: pointer;
+}
+
+.img_div {
+    background-color: #333;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    margin: 0 1.5% 0 0;
+}
+
+.img_foot {
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}
+
+.foot1_p {
+    display: flex;
+    flex-direction: row;
+    color: #949494;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+}
+
+.p_foot {
+    margin-left: 0;
+    margin-right: 1.5%;
+    cursor: pointer;
+}
+
+.foot2 {
+    height: 97px;
+    background-color: #000;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    color: #949494;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.foot_p2 {
+    line-height: 100%;
+    vertical-align: middle;
+    margin: 2.5%;
+}
+
+.foot_tnw {
+    height: 11px;
+}
+
+heart {
+    color: red;
+    font-size: 10px;
+}
+
+b {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/** first media change **/ 
+
+@media (max-width: 1025px) {
+    .main {
+        height: 422px;
+    }
+    
+    .color {
+        display: none;
+    }
+    
+    .one_m,
+    .two_m,
+    .three_m {
+        background-color: black;
+        opacity: 1;
+        transition: 0.3s;
+    }
+    
+    .one_m:hover,
+    .two_m:hover,
+    .three_m:hover {
+        opacity: 0.8;
+    }
+    
+    .title_big {
+        font-size: 250%;
+        line-height: 5vh;
+        margin-top: 10px;
+    }
+    
+    .title_small {
+        margin-top: 30vh;
+    }
+    
+    .tnw_logo,
+    .date {
+        display: none;
+    }
+    
+    .img_hide {
+        display: none;
+    }
+    
+    .news_s,
+    .one_deal {
+        width: 32%;
+        margin: 10px 0.66667%;
+    }
+    
+    .lat_news,
+    .lat_fund,
+    .syns,
+    .lat_deals {
+        height: auto;
+        margin: 20px 1.5%;
+    }
+    
+    .header_fund {
+        flex-direction: column;
+        height: auto;
+        margin: auto 0.9%;
+    }
+    
+    .fund_section {
+        width: 32%;
+        margin: 15px 0.66667%;
+    }
+    
+    .lat_fund {
+        flex-wrap: wrap;
+    }
+    
+    .one_syns {
+        width: 48%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    
+    .five_syns {
+        margin: 0 -3% 0 -5%;
+    }
+    
+    .big_syns,
+    .big_synsa,
+    .big_synsg,
+    .big_synst,
+    .big_synsc,
+    .big_synsco,
+    .big_synsi,
+    .big_synsl,
+    .big_synsd {
+        height: 35vw;
+    }
+    
+    .last_deal {
+        margin-right: auto;
+        margin-left: 0.66667%;
+    }
+    
+    .header_2a {
+        width: 60%;
+    }
+    
+    .header_1a {
+        width: 50%;
+    }
+}
+
+/** second media change **/
+
+@media (max-width: 765px) {
+    .main {
+        height: auto;
+    }
+    
+    .one_m,
+    .two_m,
+    .three_m {
+        height: 212px;
+        width: 100%;
+        margin: 5px auto;
+    }
+    
+    .title_big,
+    .title_bi {
+        font-size: 120%;
+        line-height: 120%;
+        margin-top: 0;
+    }
+    
+    .title_small,
+    .title_smal {
+        margin-top: 110px;
+        font-size: 90%;
+    }
+    
+    .news_section,
+    .deal_sec {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .news_s,
+    .one_deal {
+        flex-direction: column;
+        height: 75px;
+        margin: 5px 0;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    
+    .news_img,
+    .deal_img {
+        width: 75px;
+        height: 75px;
+        position: absolute;
+    }
+    
+    .news_title,
+    .h1_deal {
+        width: auto;
+        font-size: 15px;
+        margin: 0 auto 0 85px; 
+    }
+    
+    .news_sub,
+    .price_deal {
+        text-align: left;
+        margin: 10px 85px;
+    }
+    
+    .add_more {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    
+    .border {
+        display: none;
+    }
+    
+    .add {
+        margin-left: 0;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .funds {
+        flex-direction: column;
+    }
+    
+    .fund_section {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .news_p {
+        margin: 5px 0;
+    }
+    
+    .fund_money {
+        font-size: 20px;
+    }
+    
+    .one_syns {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .big_syns,
+    .big_synsa,
+    .big_synsg,
+    .big_synst,
+    .big_synsc,
+    .big_synsco,
+    .big_synsi,
+    .big_synsl,
+    .big_synsd {
+        height: 72vw;
+    }
+    
+    .color_syns {
+        width: 100%
+    }
+    
+    .latest {
+        justify-content: space-between;
+    }
+    
+    .five_syns {
+        margin: 10px -10px 5px -22px
+    }
+    
+    .deals_all {
+        font-size: 15px;
+    }
+    
+    .foot_p2 {
+        margin: 3.3% 10%;
+        line-height: inherit;
+    } 
+    
+    .header_1 {
+        display: none;
+    }
+    
+    .header_2a {
+        background-image: url(img/LogoTheNextWeb.jpg);
+        background-position: left center;
+        height: 100%;
+        width: 100px;
+        background-size: cover;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    
+    .header_2al {
+        display: none;
+    }
+    
+    .header_2 {
+        position: fixed;
+        background-color: white;
+        z-index: 3;
+        width: 100%;
+    }
+    
+    .icon1li {
+        border-left: 2px solid #eee;
+        padding: 18px;
+        margin-right: -10px;
+    }
+    
+    .icon1ma {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
